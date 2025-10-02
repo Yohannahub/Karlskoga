@@ -30,6 +30,9 @@
 </head>
 <body>
   <h1>🎉 Välkommen till min roliga undersida! 🎉</h1>
+<button onclick="window.location.href='fun.html'">
+  Gå till min roliga undersida 🎉
+</button>
 
   <h2>1. Byt bakgrundsfärg 🎨</h2>
   <button onclick="document.body.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16)">
